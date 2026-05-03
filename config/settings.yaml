@@ -1,9 +1,9 @@
 comfyui:
   server: "127.0.0.1:8188"
-  workflow_template: "config/workflow_template.json"
+  workflow_template: "config/image_z_image_turbo.json"
   output_dir: "outputs"
 
 llm:
-  api_key: "sk-xxxxx"
-  base_url: null
-  model: "gpt-4o-mini"
+  api_key: ""
+  base_url: "http://localhost:11434/v1"
+  model: "qwen3.5"
