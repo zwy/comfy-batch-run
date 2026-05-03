@@ -1,5 +1,5 @@
 comfyui:
-  server: "127.0.0.1:8188"
+  server: "127.0.0.1:8000"
   workflow_template: "config/image_z_image_turbo.json"
   output_dir: "outputs"
 
