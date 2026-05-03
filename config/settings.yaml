@@ -1,0 +1,9 @@
+comfyui:
+  server: "127.0.0.1:8188"
+  workflow_template: "config/workflow_template.json"
+  output_dir: "outputs"
+
+llm:
+  api_key: "sk-xxxxx"
+  base_url: null
+  model: "gpt-4o-mini"

@@ -1,0 +1,15 @@
+{
+  "6": {
+    "inputs": {
+      "text": "a beautiful landscape",
+      "clip": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "positive"
+    }
+  }
+}

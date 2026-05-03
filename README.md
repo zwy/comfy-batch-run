@@ -1,2 +1,3 @@
 # comfy-batch-run
-根据数据集批量运行
+
+A Python project for batch image generation with ComfyUI and prompt generation via LLM.
