@@ -15,7 +15,7 @@ class BatchRunner:
         for node in wf.values():
             if node.get("class_type") == "CLIPTextEncode":
                 title = node.get("_meta", {}).get("title", "").lower()
-                if "positive" in title:
+                if "positive" in title or "clip文本编码" in title:
                     node["inputs"]["text"] = prompt_text
                     break
         return wf
